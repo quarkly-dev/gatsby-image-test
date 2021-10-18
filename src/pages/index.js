@@ -1,6 +1,7 @@
 import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Box, Structure, Image, Span, Input, Icon, Button } from "@quarkly/widgets";
+import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia } from "@quarkly/components";
@@ -134,14 +135,7 @@ export default (() => {
 					</Components.QuarklycommunityKitPopup>
 				</Override>
 				<Override slot="cell-1">
-					<Image
-						src="https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-						max-width="100%"
-						min-height="600px"
-						object-fit="cover"
-						lg-min-height="500px"
-						sm-min-height="400px"
-					/>
+					<StaticImage src="https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="A dinosaur" />
 				</Override>
 				<Override
 					slot="Cell 0"
@@ -304,13 +298,7 @@ export default (() => {
 				/>
 				<Override slot="Cell 3rd" md-grid-column="3 / span 2" sm-grid-column="auto" />
 				<Override slot="cell-0">
-					<Image
-						src="https://images.unsplash.com/photo-1603539947678-cd3954ed515d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-						max-width="100%"
-						min-height="632px"
-						object-fit="cover"
-						sm-min-height="16px"
-					/>
+					<StaticImage src="https://images.unsplash.com/photo-1603539947678-cd3954ed515d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="A dinosaur" />
 				</Override>
 				<Override slot="cell-1">
 					<Text
@@ -597,44 +585,16 @@ export default (() => {
 							<Override slot="Tab two">
 								Animation
 							</Override>
-							<Image
-								src="https://images.unsplash.com/photo-1590402494587-44b71d7772f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-								max-width="100%"
-								height="560px"
-								object-fit="cover"
-								width="100%"
-								lg-height="460px"
-								padding="0px 0px 0px 0px"
-							/>
+							<StaticImage src="https://images.unsplash.com/photo-1590402494587-44b71d7772f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="A dinosaur" />
 						</Components.Tab>
 						<Components.Tab tabId="two">
-							<Image
-								src="https://images.unsplash.com/photo-1560439514-4e9645039924?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000"
-								max-width="100%"
-								height="560px"
-								object-fit="cover"
-								width="100%"
-								lg-height="460px"
-							/>
+							<StaticImage src="https://images.unsplash.com/photo-1560439514-4e9645039924?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000" alt="A dinosaur" />
 						</Components.Tab>
 						<Components.Tab tabId="three">
-							<Image
-								src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000"
-								max-width="100%"
-								height="560px"
-								object-fit="cover"
-								width="100%"
-								lg-height="460px"
-							/>
+							<StaticImage src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000" alt="A dinosaur" />
 						</Components.Tab>
 						<Components.Tab tabId="four">
-							<Image
-								src="https://images.unsplash.com/photo-1561489413-985b06da5bee?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000"
-								height="560px"
-								object-fit="cover"
-								width="100%"
-								lg-height="460px"
-							/>
+							<StaticImage src="https://images.unsplash.com/photo-1561489413-985b06da5bee?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1000" alt="A dinosaur" />
 						</Components.Tab>
 					</Components.Tabs>
 				</Override>
@@ -730,18 +690,7 @@ export default (() => {
 					</Link>
 				</Override>
 				<Override slot="cell-1">
-					<Image
-						src="https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/Vectary%20texture.png?v=2021-09-18T00:09:23.228Z"
-						position="absolute"
-						right="-100px"
-						bottom="70px"
-						left="auto"
-						top="auto"
-						lg-right="0px"
-						md-bottom="0px"
-						sm-bottom="-40px"
-						sm-right="-40px"
-					/>
+					<StaticImage src="https://uploads.quarkly.io/6143a05129a0a1001e6c835c/images/Vectary%20texture.png?v=2021-09-18T00:09:23.228Z" alt="A dinosaur" />
 					<Box
 						margin="0px 0px 54px 0px"
 						display="flex"
