@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: "Quarkly gatsby project",
         description: "",
-        author: "@Артём Жигалин",
+        author: "@Andrey Zhuravlyov",
         siteUrl: "https://example.com"
     },
     plugins: [
@@ -21,5 +21,8 @@ module.exports = {
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // "gatsby-plugin-offline",
+		`gatsby-plugin-image`,
+		`gatsby-plugin-sharp`,
+		`gatsby-transformer-sharp`, // Needed for dynamic images
     ],
 };
